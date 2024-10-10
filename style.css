@@ -47,7 +47,8 @@ padding: 15px 0;
 }
 #hero button{
     color: white;
-    padding: 10px 20px;
+    padding: 20px 30px;
+    font-size: 25px;
     background: rgb(13, 19, 33);
     box-sizing: border-box;
     border-radius: 5px;
@@ -209,6 +210,7 @@ margin: 25px 0;
 }
 .support-section{
     background-image: url("assets/handshake.jpg");
+    background-size: cover;
     width: 1240px;
     height: 313px;
     border-radius: 15px;
@@ -246,7 +248,10 @@ margin: 25px 0;
     background: rgba(13, 19, 33, 0.03);
     padding: 25px;
     margin-top: 45px;
-
+}
+.contact h5{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
 }
 
 
