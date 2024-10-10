@@ -153,7 +153,60 @@ margin: 25px 0;
     margin: 25px 0;
     padding: 30px;
 }
+.My-Current-Target-Content h2{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    margin: 25px 0;
+    text-align: center;
+}
 
+.My-Current-Target-Content p{
+    font-size: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.my-target-cotagory{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.my-target-cotagory .html{
+    width: 360px;
+    height: 295px;
+    background: rgba(255, 76, 30, 0.07);
+    padding: 35px;
+}
+.my-target-cotagory .html h1{
+    margin: 15px 0;
+}
+.my-target-cotagory .html p{
+    margin: 25px 0;
+}
+.my-target-cotagory .css{
+    width: 360px;
+    height: 295px;
+    background: rgba(0, 76, 232, 0.07);
+    padding: 35px;
+}
+.my-target-cotagory .css h1{
+    margin: 15px 0;
+}
+.my-target-cotagory .css p{
+    margin: 25px 0;
+}
+.my-target-cotagory .javascript{
+    width: 360px;
+    height: 295px;
+    background: rgba(255, 223, 0, 0.07);
+    padding: 35px;
+}
+.my-target-cotagory .javascript h1{
+    margin: 15px 0;
+}
+.my-target-cotagory .javascript p{
+    margin: 25px 0;
+}
 
 
 
