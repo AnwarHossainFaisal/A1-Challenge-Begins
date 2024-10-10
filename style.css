@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 p{
     color:rgb(13, 19, 33);
 }
@@ -23,10 +27,11 @@ button{
 }
 
 #hero{
-    max-width: 995px;
+    
+    margin: 0 auto;
     align-items: center;
     text-align: center;
-    padding-top: 25px 0;
+    padding-top: 25px;
     background: url(assets/Hero-bg.png);
 }
 #hero img{
@@ -50,6 +55,10 @@ padding: 15px 0;
     cursor: pointer;
     margin: 15px 0 35px;
 }
+.main-section{
+    border-radius: 15px;
+    background: rgba(13, 19, 33, 0.02);
+}
 .Why-Web-Development{
     padding: 25px 0;
     text-align: center;
@@ -62,4 +71,71 @@ font-size: 30px;
 font-weight: 800;
 margin: 25px 0;
 }
+
+.Why-Web-Development p{
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+.why-devlopment-child-one{
+    display: flex;
+    justify-content: space-between;
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 45px;
+    background:white;
+}
+.why-devlopment-child-one h3{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.why-devlopment-child-one p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+.why-devlopment-child-one button{
+    font-size: 20px;
+    padding: 11px 23px;
+}
+.why-devlopment-child-two{
+    display: flex;
+    justify-content: space-between;
+    max-width: 945px;
+    margin: 50px auto;
+    padding: 45px;
+    background:white;
+}
+.why-devlopment-child-two h3{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.why-devlopment-child-two p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+.why-devlopment-child-two button{
+    font-size: 20px;
+    padding: 11px 23px;
+}
+
+.why-devlopment-child-three{
+    display: flex;
+    justify-content: space-between;
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 45px;
+    background:white;
+}
+.why-devlopment-child-three h3{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.why-devlopment-child-three p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+.why-devlopment-child-three button{
+    font-size: 20px;
+    padding: 11px 23px;
+}
+
 
